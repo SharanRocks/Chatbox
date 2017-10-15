@@ -1,0 +1,347 @@
+body
+{
+  margin:0px;
+  background-image: url("bk.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding:0px 0px;
+}
+.Main_Outer_Boundry
+{
+  position: relative;
+  display: block;
+  background-size: 100%;
+  height:700px;
+  padding:0px 0px;
+}
+.Outer_Boundry
+{
+  position: absolute;
+  height: 900px;
+  width:700px;
+  left: 30%;
+}
+.Login_Form_Outer_Boundry
+{
+  position: absolute;
+  top:20%;
+  left:23%;
+  height:550px;
+  width: 400px;
+  padding:0px 0px;
+  background-color: #4F89E1;
+  border-radius: 5px;
+  box-shadow: 5px 3px 5px 0px #232424;
+}
+.Login_Form_Inner_Boundry1
+{
+  position: absolute;
+  margin:auto;
+  top:5px;
+  left:0.5px;
+  background:linear-gradient(to bottom right,#343a4c,#2a5670 ,#1985c4);
+  height:545px;
+  width:400px;
+  border:0px ridge blue;
+  border-radius: 5px;
+}
+.Login_Form_Header
+{
+    position: absolute;
+    margin-top: 2px;
+    width: 100%;
+    height: 200px;
+}
+.Avtar
+{
+  position: absolute;
+  left:30%;
+  top:5%;
+}
+.Login_text
+{
+  position: absolute;
+  top:80%;
+  left:37%;
+  color: #C7D0D7;
+  font-size: 40px;
+  font-family:Times_New_Roman;
+  font-style: italic;
+}
+.Login_Form_Inner_Boundry2
+{
+  position: absolute;
+  top:40%;
+  height:250px;
+  width:99%;
+
+}
+.Login_Form
+{
+  position: absolute;
+  height:250px;
+  width:99%;
+}
+#Username {
+    position: absolute;
+    top:15%;
+    left:10%;
+    height:30px;
+    width:250px;
+    background: #fff url('4.png') 18px top no-repeat;
+    background-size: 20px 70px;
+    font-style: italic;
+    font-family: Times_New_Roman;
+    font-size: 20px;
+    padding-left: 60px;
+    border-radius:10px;
+    outline:none;
+}
+#Password
+{
+  position: absolute;
+  top:35%;
+  left:10%;
+  height:30px;
+  width:250px;
+  background: #fff url('3.png') 20px top no-repeat;
+  background-size: 16px 80px;
+  font-style: italic;
+  font-family: Times_New_Roman;
+  font-size: 20px;
+  padding-left:60px;
+  border-radius:10px;
+  outline:none;
+}
+#Login_Button
+{
+  position: absolute;
+  width:318px;
+  height: 40px;
+  top:60%;
+  left:10%;
+  background-color: #CA0A3D;
+  border-right: 2px solid #B9677D;
+  border-bottom: : 2px solid #B9677D;
+  border-top: none;
+  border-left: none;
+  font-size: 25px;
+  color:white;
+  font-style:italic;
+  font-family: Times_New_Roman;
+
+  border-radius:3px;
+
+}
+#Username:focus {
+    background: #fff url('4.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+#Password:focus {
+    background: #fff url('3.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+.Login_Button:hover {
+    background: #ff7b81;
+}
+.Form_Footer
+{
+  position: absolute;
+  top:92%;
+  left:10%;
+  font-size: 20px;
+  font-weight: bold;
+  color:#B1B6BD;
+}
+.Create_An_Account
+{
+  color:#ffb2d5;
+  text-decoration: none;
+  font-weight:700;
+  cursor: pointer;
+}
+
+
+
+
+.Register_Form_Outer_Boundry
+{
+  position: absolute;
+  top:20%;
+  left:23%;
+  height:550px;
+  width: 400px;
+  padding:0px 0px;
+  background:linear-gradient(to right,#601680,#a47eb5);
+  border-radius: 5px;
+  box-shadow: 5px 3px 5px 0px #232424;
+}
+.Register_Form_Inner_Boundry1
+{
+  position: absolute;
+  margin:auto;
+  top:5px;
+  left:0.5px;
+  background:linear-gradient(to bottom right,#2e4759,#3b6482,#508db7);
+  height:545px;
+  width:400px;
+  border:0px ridge blue;
+  border-radius: 5px;
+}
+.Register_Form_Header
+{
+    position: absolute;
+    margin-top: 2px;
+    width: 100%;
+    height: 200px;
+}
+.Register_Avtar
+{
+  position: absolute;
+  left:30%;
+}
+.Register_text
+{
+  position: absolute;
+  top:75%;
+  left:32%;
+  color: #C7D0D7;
+  font-size: 30px;
+  font-size: 40px;
+  font-family:Times_New_Roman;
+  font-style: italic;
+}
+.Register_Form_Inner_Boundry2
+{
+  position: absolute;
+  top:40%;
+  height:250px;
+  width:99%;
+}
+.Email
+{
+  position: absolute;
+  top:0%;
+  left:10%;
+  height:30px;
+  width:250px;
+  background: #fff url('Email.png') 18px top no-repeat;
+  background-size: 20px 70px;
+  font-style: italic;
+  font-family: Times_New_Roman;
+  font-size: 20px;
+  padding-left: 60px;
+  border-radius:10px;
+  outline:none;
+}
+#Name
+{
+  position: absolute;
+  top:20%;
+  left:10%;
+  height:30px;
+  width:250px;
+  background: #fff url('4.png') 18px top no-repeat;
+  background-size: 20px 70px;
+  font-style: italic;
+  font-family: Times_New_Roman;
+  font-size: 20px;
+  padding-left: 60px;
+  border-radius:10px;
+  outline:none;
+}
+.RUsername {
+    position: absolute;
+    top:40%;
+    left:10%;
+    height:30px;
+    width:250px;
+    background: #fff url('4.png') 18px top no-repeat;
+    background-size: 20px 70px;
+    font-style: italic;
+    font-family: Times_New_Roman;
+    font-size: 20px;
+    padding-left: 60px;
+    border-radius:10px;
+    outline:none;
+}
+.RPassword
+{
+  position: absolute;
+  top:60%;
+  left:10%;
+  height:30px;
+  width:250px;
+  background: #fff url('3.png') 20px top no-repeat;
+  background-size: 16px 80px;
+  font-style: italic;
+  font-family: Times_New_Roman;
+  font-size: 20px;
+  padding-left:60px;
+  border-radius:10px;
+  outline:none;
+}
+.Register_Button
+{
+  position: absolute;
+  width:318px;
+  height: 40px;
+  top:90%;
+  left:10%;
+  background-color: #CA0A3D;
+  border-right: 2px solid #B9677D;
+  border-bottom: : 2px solid #B9677D;
+  border-top: none;
+  border-left: none;
+  font-size: 25px;
+  color:white;
+  font-style:italic;
+  font-family: Times_New_Roman;
+
+  border-radius:3px;
+
+
+}
+.Name {
+    background: #fff url('5.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+.Email {
+    background: #fff url('4.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+.Name:focus {
+    background: #fff url('5.png') 20px bottom no-repeat;
+    background-size: 16px 70px;
+}
+.Email:focus {
+    background: #fff url('5.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+.Username:focus {
+    background: #fff url('4.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+.Password:focus {
+    background: #fff url('3.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+.Register_Button:hover {
+    background: #ff7b81;
+}
+.Register_Form_Footer
+{
+  position: absolute;
+  top:92%;
+  left:20%;
+  font-size: 20px;
+  font-weight: bold;
+  color:#B1B6BD;
+}
+.Log_into_Account
+{
+  color:#CF8CAA;
+  text-decoration: none;
+  font-weight:700;
+  cursor: pointer;
+}

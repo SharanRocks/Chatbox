@@ -1,0 +1,179 @@
+body
+{
+  margin:0px 0px;
+  background-image: url(bk1.jpg);
+  background-color: #021D2D;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding:0px 0px;
+
+}
+.Chatpage_Outer_Boundry
+{
+  position: relative;
+  margin:auto;
+  height:795px;
+  width:1530px;
+  background-position:center;
+  padding: 0px 0px;
+}
+.Chatpage_Header
+{
+  position: absolute;
+  height:70px;
+  width:100.35%;
+  left:-2.7px;
+  top:0px;
+  background:linear-gradient(to bottom,#343a4c,#2a5670 ,#1985c4);
+
+  margin: 0px 0px;
+  padding:0px 0px;
+}
+.Chatpage_footer
+{
+  position: absolute;
+  top:91.2%;
+  height:70px;
+  margin:0px 0px;
+  width:100.35%;
+  left:-2.7px;
+  background-color: #32363E;
+  background:linear-gradient(to bottom right,#203342,#1f3749,#294459 ,#264b60);
+
+}
+.Mid_Content
+{
+  position: absolute;
+  top:9%;
+  width:100%;
+  height:645px;
+}
+.Chatbox_Outer_Boundry
+{
+  position: absolute;
+  min-width:30%;
+  margin:-0.1% 35%;
+  height:655px;
+  left:0px;
+  background-color: #32363E;
+  opacity:0.5px;
+    background:linear-gradient(to bottom right,#203342,#1f3749,#294459 ,#264b60);
+    border-radius:10px;
+}
+.Message_Box::-webkit-scrollbar
+{
+  width:7px;
+}
+.Message_Box::-webkit-scrollbar-thumb
+{
+  border-radius: 8px;
+  background-color: grey;
+  box-shadow:inset 0 0 6px white;
+
+}
+.Log_Out_Button
+{
+  position: absolute;
+  top:20%;
+  left:90%;
+  height:40px;
+  width:100px;
+  background-color: #DD0558;
+  color:white;
+  border:0px 2px 2px 0px;
+  border-color: #F15994;
+}
+.My_Name_Block
+{
+  position: absolute;
+  height:90%;
+  width:350px;
+  left:65%;
+  top:2px;
+}
+.My_Name
+{
+  position: absolute;
+  width:350px;
+  font-size: 35px;
+  text-align: center;
+  top:20%;
+  font-style: italic;
+  color:white;
+}
+.Message_Box
+{
+  position: absolute;
+  margin:20px;
+  width:90%;
+  height:60%;
+  overflow:scroll;
+  overflow-x: hidden;
+  padding:0px;
+  background-color: transparent;
+}
+#User_Control
+{
+  position: absolute;
+  top:65%;
+  min-width:95%;
+  margin:10px;
+  height:30%;
+}
+#Type_Message
+{
+  width:89%;
+  height:30px;
+  margin:2px;
+  padding:20px;
+  font-size: 25px;
+  font-style: italic;
+  opacity: 1;
+  scroll-behavior: smooth;
+}
+.Send
+{
+  top:50%;
+  position: absolute;
+  margin:2px;
+  width:98.5%;
+  height:40px;
+  background-color: #DD0558;
+  color:white;
+  border:0px 2px 2px 0px;
+  border-color: #F15994;
+  border-radius: 5px;
+  outline: none;
+  font-size: 25px;
+  font-style: italic;
+  font-family:Times_New_Roman;
+}
+.Send:hover
+{
+  background-color: #9A033D;
+  border-color:#B60548;
+}
+.Friend_Search
+{
+  position: absolute;
+  left:42%;
+  top:25%;
+}
+.Friend_Search
+{
+  position: absolute;
+  top:15%;
+}
+.Search_bar
+{
+  position: absolute;
+  height:35px;
+  padding:5px;
+  font-size: 20px;
+  border-radius:20px;
+  outline: none;
+}
+.Search
+{
+  display:none;
+}
